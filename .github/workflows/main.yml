@@ -18,5 +18,5 @@ jobs:
         aws-region: us-east-1
 
     - name: s3 deploy
-      run: aws s3 cp . s3://dikshatest1/ --recursive
+      run: aws s3 cp . s3://dikshatest2/ --recursive
     
