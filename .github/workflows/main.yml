@@ -23,6 +23,6 @@ jobs:
     - name: Notify SNS
       run: |
         aws sns publish \
-          --topic-arn arn:aws:sns:us-east-1:430778251419:notificationtopic \
+          --topic-arn arn:aws:sns:us-east-1:430778251419:notificationremoval \
           --message "Deployment to S3 completed. Files have been uploaded to s3://dikshadwc/."
     
