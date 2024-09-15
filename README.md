@@ -1,4 +1,4 @@
-#added email
+#added email remocal
 # My Portfolio Website
 
 Welcome to my portfolio website repository! This project showcases my skills, projects, and experiences. Below you’ll find details on how the portfolio is structured and how you can view or contribute to it.
