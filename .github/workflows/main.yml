@@ -19,4 +19,10 @@ jobs:
 
     - name: s3 deploy
       run: aws s3 cp . s3://dikshadwc/ --recursive
+
+    - name: Notify SNS
+      run: |
+        aws sns publish \
+          --topic-arn arn:aws:sns:us-east-1:430778251419:notificationtopic:d9709bb3-82d7-4d08-a3ef-9016b192dbf6
+          --message "Deployment to S3 completed. Files have been uploaded to s3://dikshadwc/."
     
